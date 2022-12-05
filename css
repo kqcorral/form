@@ -1,0 +1,88 @@
+body{          
+  background-image: url(https://img.uefa.com/imgml/uefacom/ucl/social/og-default.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(225, 225, 225);
+}
+
+h1 {
+  text-align: center;
+}
+
+#title {
+  font-size: 2.8rem;
+  font-family: 'Alata', sans-serif;
+}
+
+#description {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;  
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  background-color: rgba(16, 24,41, 0.9);
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  
+}
+
+label {
+  display: block;
+  margin: 1.2rem 0;
+}
+
+input, textarea , select{
+  border: 1.5px solid rgb(125,125,125);
+  color: rgb(16,24,41);
+  border-radius: 4px;
+  
+}
+
+.text {
+  margin:20px;
+}
+
+#merit {
+  margin: 15px 0;
+  max-width: 460px;
+  min-width: 300px;
+  max-height: 380px;
+  min-height: 60px;
+}
+
+.form-part-two{
+  margin-bottom: 50px;
+}
+
+.form-part-three{
+  margin-bottom: 50px;
+}
+
+.form-part-four{
+  margin-bottom: 50px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 1em auto;
+  height: 2em;
+  width: 60%;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 260px;
+  color: rgb(255, 255, 255);
+  
+}
+
+input[type="text"], textarea, input[type="number"], input[type="email"], select {
+  width: 100%;
+  min-height: 2em;
+  margin: 10px 0 0 0;
+}
